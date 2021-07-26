@@ -12,8 +12,33 @@
     top: 7px;
     right: 90px;
 }
+.carousel{
+    background-color: #F6F9FC;
 }
-/* offcanvas use */
-.profile,.notification:hover{
-    
+.left-slider-blue{
+    height: 180px;
+    width: 250px;
+    border-radius: 12px;
+    background-color: #E9F3FC;
+}
+.left-slider-yellow{
+    height: 180px;
+    width: 250px;
+    border-radius: 12px;
+    background-color: #F7F2EE;
+}
+.left-slider-green{
+    height: 180px;
+    width: 250px;
+    border-radius: 12px;
+    background-color: #E6F7F3;
+}
+.shop-now-blue{
+    color: #71B3FD;
+}
+.shop-now-yellow{
+    color: #FEA79A;
+}
+.shop-now-green{
+    color: #84D697;
 }
