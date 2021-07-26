@@ -45,3 +45,11 @@
 .card:hover{
     box-shadow: 5px 10px  30px grey;
 }
+.offers{
+ background-color: #F1F8FF;
+ margin-top: 30px;
+}
+.offers-img{
+    height: 340px;
+    width: 500px;
+}
