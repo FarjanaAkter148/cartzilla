@@ -42,3 +42,6 @@
 .shop-now-green{
     color: #84D697;
 }
+.card:hover{
+    box-shadow: 5px 10px  30px grey;
+}
