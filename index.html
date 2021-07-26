@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/337105f726.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header part -->
+  <header class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container d-flex g-3 align-items-center  fixed-top ">
+        <!-- logo -->
+        <div>
+          <a class="navbar-brand" href="#"><img src="images/logo-dark.png" alt="" style="height: 51px; width:140px;"></a>
+        </div>
+        <!-- search -->
+          <div class="input-group mb-3 w-75 pt-3 ">
+            <input type="text" class="form-control" placeholder="Search for products"  aria-label="Text input with dropdown button">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">All Catagories</button>
+            <ul class="dropdown-menu dropdown-menu-end pe-2">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll d-flex ">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <!-- user profile -->
+              <li class="nav-item profile">
+              <a class="nav-link" href="#"> </a>
+              </li>
+              
+            <!-- Notification -->
+              <li class="nav-item notification ">
+               <a class="nav-link  " href="#"> <i class="far fa-bell fs-4 cart"></i>
+                <span class=" badge rounded-cicle bg-danger ">
+                  99+</span></a>
+                </li>
+                <!-- offcanvas -->
+              <li class="nav-item mt-1 ps-3 ">
+              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">
+                <div class="" type="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                  <i class="far fa-user-circle fs-1"></i> </div>
+            
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Profile</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="nav d-flex flex-column">
+                  <li class="nav-item ">
+                    <a class="nav-link " aria-current="page" href="#">
+                      <div class="d-flex"> 
+                        <span><i class="fas fa-user fs-4"></i></span>
+                        <span> <h5 class="ps-3">My account</h5></span>
+                      </div> 
+                    </a>
+                  </li> 
+                  <li class="nav-item ">
+                    <a class="nav-link " aria-current="page" href="#">
+                      <div class="d-flex"> 
+                        <span><i class="fas fa-envelope fs-4"></i></span>
+                        <span> <h5 class="ps-3">Message</h5></span>
+                      </div> 
+                    </a>
+                  </li> 
+                  <li class="nav-item ">
+                    <a class="nav-link " aria-current="page" href="#">
+                      <div class="d-flex"> 
+                        <span><i class="fas fa-shopping-cart fs-4"></i></span>
+                        <span> <h5 class="ps-2 ">Cart</h5></span>
+                      </div> 
+                    </a>
+                  </li> 
+                  <li class="nav-item ">
+                    <a class="nav-link " aria-current="page" href="#">
+                      <div class="d-flex"> 
+                        <span><i class="fas fa-heart fs-4"></i></span>
+                        <span> <h5 class="ps-3">My Favourite</h5></span>
+                      </div> 
+                    </a>
+                  </li> 
+                  <li class="nav-item ">
+                    <a class="nav-link " aria-current="page" href="#">
+                      <div class="d-flex"> 
+                        <span><i class="fas fa-sign-in-alt fs-4"></i></span>
+                        <span> <h5 class="ps-3">Log in</h5></span>
+                      </div> 
+                    </a>
+                  </li> 
+                  <li class="nav-item ">
+                    <a class="nav-link " aria-current="page" href="#">
+                      <div class="d-flex"> 
+                        <span><i class="fab fa-instagram fs-4"></i></span>
+                        <span> <h5 class="ps-3">Create your instragram</h5></span>
+                      </div> 
+                    </a>
+                  </li> 
+                  
+                </ul>
+              </div>
+            </div>
+
+              </a>
+              </li>
+            </ul>
+         
+        </div>
+      </div>
+    </nav>
+    <!-- Second Nav -->
+    <section class="container mt-5 fw-bold d-flext justify-content-between">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light nav-tabs">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-bars pe-2"></i> Department <span class="ps-5">|</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+              <li class="nav-item">
+                <a class="nav-link active text-warning fw-bold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Docs/Components</a>
+              </li>
+              </ul>
+             </div>
+        </nav>
+    </section>
+    
+    
+    
+    
+  </header>
+        <!-- carousel part -->
+        <section class="container">
+          
+
+        </section>
+    </header>
+    <main>
+        <!-- trending products -->
+        <section class="container">
+
+        </section>
+         
+        <!-- Offers -->
+        <section class="container">
+
+        </section>
+        <!-- Brands slider -->
+        <section class="container">
+
+        </section>
+
+        <!-- best sellers -->
+        <section class="container">
+
+        </section>
+
+        <!-- Youtube -->
+        <section class="container">
+
+        </section>
+
+      
+    </main>
+      <!-- footer part 1 -->
+      <footer>
+            
+      </footer>
+      <!-- footer part 2 -->
+      <footer>
+            
+      </footer>
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="css/js/bootstrap.bundle.js"></script>
+</body>
+</html>
