@@ -45,6 +45,7 @@
 .card:hover{
     box-shadow: 5px 10px  30px grey;
 }
+/* offers part */
 .offers{
  background-color: #F1F8FF;
  margin-top: 30px;
@@ -63,7 +64,7 @@
  }
  /* device offer hover   */
  .offer-images img:hover{
-    transform:scale(1) translateY(-0.5rem) skewX(20deg) ;
+    transform:scale(1.05) translateY(-0.5rem);
     z-index: 11;
     outline: 1rem solid #63CDDA;
  } 
